@@ -26,22 +26,22 @@ function ListItem({index}) {
                         <video src={trailer} autoPlay={true} loop></video>
                         <div className="itemInfo">
                             <div className="icons">
-                                <PlayArrowIcon/>
-                                <AddIcon/>
-                                <ThumbUpOutlinedIcon/>
-                                <ThumbDownOffAltOutlinedIcon/>
+                                <PlayArrowIcon className='icon'/>
+                                <AddIcon className='icon'/>
+                                <ThumbUpOutlinedIcon className='icon'/>
+                                <ThumbDownOffAltOutlinedIcon className='icon'/>
                             </div>
-                        </div>
-                        <div className="itemInfoTop">
-                            <span>1 hour 14 mins</span>
-                            <span className='limit'>+16</span>
-                            <span>1999</span>
-                        </div>
-                        <div className="desc">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ut mollitia fugit tenetur molestiae eaque labore accusamus similique ipsam sed.
-                        </div>
-                        <div className="genre">
-                            Action
+                            <div className="itemInfoTop">
+                                <span>1 hour 14 mins</span>
+                                <span className='limit'>+16</span>
+                                <span>1999</span>
+                            </div>
+                            <div className="desc">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ut mollitia fugit tenetur molestiae eaque labore accusamus similique ipsam sed.
+                            </div>
+                            <div className="genre">
+                                Action
+                            </div>
                         </div>
                     </>
                 )

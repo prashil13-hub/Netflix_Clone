@@ -1,9 +1,9 @@
 import React from 'react'
 import AcUnitIcon from '@mui/icons-material/AcUnit';
 import './Home.scss'
-import Navbar from '../Components/Navbar/Navbar';
-import Featured from '../Components/Featured/Featured';
-import List from '../Components/List/List'
+import Navbar from '../../Components/Navbar/Navbar';
+import Featured from '../../Components/Featured/Featured';
+import List from '../../Components/List/List'
 
 const Home = () => {
   return (
