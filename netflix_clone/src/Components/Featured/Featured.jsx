@@ -30,7 +30,7 @@ export default function Featured({type}) {
                 )
             }
             <img
-                src="https://images.pexels.com/photos/6899260/pexels-photo-6899260.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                src="https://wallpapercave.com/wp/wp7630913.jpg"
                 alt=""
             />
             <div className="info">
