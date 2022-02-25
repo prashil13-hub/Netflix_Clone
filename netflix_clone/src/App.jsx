@@ -8,10 +8,10 @@ import Login from './Pages/Login/Login';
 
 function App() {
   return (
-    // <Home/>
+    <Home/>
     // <Watch/>
     // <Register/>
-    <Login/>
+    // <Login/>
   );
 }
 
